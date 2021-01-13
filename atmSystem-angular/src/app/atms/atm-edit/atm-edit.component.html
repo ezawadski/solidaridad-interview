@@ -1,0 +1,116 @@
+<form (ngSubmit)="onSubmit(f)" #f="ngForm">
+  <div class="form-row">
+    <div class="col">
+      <div class="form-group">
+        <label>Location:</label>
+        <input
+          type="text"
+          class="form-control"
+          name="location"
+          required
+          ngModel
+        />
+      </div>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col-md-6">
+      <div class="form-group">
+        <label>Quantity of 1 Notes:</label>
+        <input
+          type="number"
+          class="form-control"
+          name="qtyNote1"
+          required
+          ngModel
+        />
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="form-group">
+        <label>Quantity of 2 Notes:</label>
+        <input
+          type="number"
+          class="form-control"
+          name="qtyNote2"
+          required
+          ngModel
+        />
+      </div>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col-md-6">
+      <div class="form-group">
+        <label>Quantity of 5 Notes:</label>
+        <input
+          type="number"
+          class="form-control"
+          name="qtyNote5"
+          required
+          ngModel
+        />
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="form-group">
+        <label>Quantity of 10 Notes:</label>
+        <input
+          type="number"
+          class="form-control"
+          name="qtyNote10"
+          required
+          ngModel
+        />
+      </div>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col-md-6">
+      <div class="form-group">
+        <label>Quantity of 20 Notes:</label>
+        <input
+          type="number"
+          class="form-control"
+          name="qtyNote20"
+          required
+          ngModel
+        />
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="form-group">
+        <label>Quantity of 50 Notes:</label>
+        <input
+          type="number"
+          class="form-control"
+          name="qtyNote50"
+          required
+          ngModel
+        />
+      </div>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col-md-6">
+      <div class="form-group">
+        <label>Quantity of 100 Notes:</label>
+        <input
+          type="number"
+          class="form-control"
+          name="qtyNote100"
+          required
+          ngModel
+        />
+      </div>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col-12 d-flex">
+      <button class="btn btn-primary" type="submit">
+        {{ editMode ? "Update ATM" : "Create ATM" }}
+      </button>
+      <button class="btn btn-secondary mx-2" type="reset">Clear</button>
+    </div>
+  </div>
+</form>

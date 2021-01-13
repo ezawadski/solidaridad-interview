@@ -1,0 +1,349 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="BuyFluidPluginNoteInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyCompatibilityInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ourVersions">
+        <value>
+          <list size="6">
+            <item index="0" class="java.lang.String" itemvalue="3.5" />
+            <item index="1" class="java.lang.String" itemvalue="3.6" />
+            <item index="2" class="java.lang.String" itemvalue="3.7" />
+            <item index="3" class="java.lang.String" itemvalue="3.8" />
+            <item index="4" class="java.lang.String" itemvalue="3.9" />
+            <item index="5" class="java.lang.String" itemvalue="3.10" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="6">
+            <item index="0" class="java.lang.String" itemvalue="python-magic" />
+            <item index="1" class="java.lang.String" itemvalue="Django" />
+            <item index="2" class="java.lang.String" itemvalue="asgiref" />
+            <item index="3" class="java.lang.String" itemvalue="pytz" />
+            <item index="4" class="java.lang.String" itemvalue="sqlparse" />
+            <item index="5" class="java.lang.String" itemvalue="python-magic-bin" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="license" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="company.models.Contact.objects" />
+          <option value="company.models.State.objects" />
+          <option value="company.models.City.objects" />
+          <option value="company.models.Company.objects" />
+          <option value="maintenance.models.System.objects" />
+          <option value="gestran.models.User_Log.objects" />
+          <option value="maintenance.models.System.DoesNotExist" />
+          <option value="maintenance.models.SubSystem.objects" />
+          <option value="maintenance.models.SubSystem.DoesNotExist" />
+          <option value="maintenance.models.Supply.objects" />
+          <option value="maintenance.models.Supply.DoesNotExist" />
+          <option value="maintenance.models.Activity.objects" />
+          <option value="maintenance.models.Activity.DoesNotExist" />
+          <option value="maintenance.models.Plan.objects" />
+          <option value="maintenance.models.Plan.DoesNotExist" />
+          <option value="maintenance.models.PlanDetail.objects" />
+          <option value="maintenance.models.PlanDetail.DoesNotExist" />
+          <option value="maintenance.models.VehicleActivitySchedule.objects" />
+          <option value="maintenance.models.VehicleActivitySchedule.DoesNotExist" />
+          <option value="maintenance.models.VehicleMaintenance.objects" />
+          <option value="maintenance.models.VehicleMaintenance.DoesNotExist" />
+          <option value="maintenance.models.MaintenanceActivity.objects" />
+          <option value="maintenance.models.MaintenanceActivity.DoesNotExist" />
+          <option value="gestran.models.Vehicle.objects" />
+          <option value="gestran.models.Vehicle.DoesNotExist" />
+          <option value="gestran.models.Custom_Document_Type.objects" />
+          <option value="gestran.models.AppUser.DoesNotExist" />
+          <option value="gestran.models.AppUser.objects" />
+          <option value="gestran.models.Vehicle_Maintenance.objects" />
+          <option value="gestran.models.Vehicle_Maintenance.DoesNotExist" />
+          <option value="gestran.models.AdministrativeGroup.objects" />
+          <option value="gestran.models.Vehicle_Maintenance_Activity_Type.objects" />
+          <option value="gestran.models.Multipurpose_List_Choice.objects" />
+          <option value="gestran.models.Vehicle_Line.objects" />
+          <option value="gestran.models.Vehicle_Class_Body_Style.objects" />
+          <option value="gestran.models.Vehicle_Color.objects" />
+          <option value="gestran.models.Vehicle_Ownership_Type.objects" />
+          <option value="gestran.models.Company_Partner_Agreement.objects" />
+          <option value="gestran.models.TransportationLicensingType.objects" />
+          <option value="gestran.models.VehicleType.objects" />
+          <option value="predrive.models.InspectionTemplate.objects" />
+          <option value="gestran.models.Company_Branch_Office.objects" />
+          <option value="gestran.models.Vehicle_Work_Modality.objects" />
+          <option value="gestran.models.Company.objects" />
+          <option value="gestran.models.Company_Consecutives.objects" />
+          <option value="core.models.Domain.objects" />
+          <option value="gestran.models.City.objects" />
+          <option value="common.models.Salutation.objects" />
+          <option value="appadmin.models.CompanyContact.objects" />
+          <option value="appadmin.models.CompanyContact.DoesNotExist" />
+          <option value="gestran.models.Company.DoesNotExist" />
+          <option value="appadmin.models.CompanyDocumentType.objects" />
+          <option value="appadmin.models.CompanyDocument.objects" />
+          <option value="appadmin.models.CompanyDocument.DoesNotExist" />
+          <option value="appadmin.models.BillableConcept.objects" />
+          <option value="billing.models.SaleItem.objects" />
+          <option value="appadmin.models.CompanyFee.objects" />
+          <option value="appadmin.models.CompanyFee.DoesNotExist" />
+          <option value="gestran.models.Invoice.objects" />
+          <option value="gestran.models.Invoice.DoesNotExist" />
+          <option value="billing.models.Invoice.objects" />
+          <option value="billing.models.Invoice.DoesNotExist" />
+          <option value="subscribers.models.DebtDetailPayment.objects" />
+          <option value="accounting.models.BankAccount.objects" />
+          <option value="common.models.PaymentMethod.objects" />
+          <option value="common.models.PaymentChannel.objects" />
+          <option value="billing.models.InvoicePayment.objects" />
+          <option value="billing.models.Payment.objects" />
+          <option value="billing.models.Payment.DoesNotExist" />
+          <option value="common.models.PaymentStatus.objects" />
+          <option value="gestran.models.State.objects" />
+          <option value="predrive.models.InspectionItem.objects" />
+          <option value="predrive.models.InspectionItem.DoesNotExist" />
+          <option value="predrive.models.InspectionTemplate.DoesNotExist" />
+          <option value="predrive.models.InspectionTemplateGroup.objects" />
+          <option value="predrive.models.InspectionTemplateItem.objects" />
+          <option value="predrive.models.CompanyTemplate.objects" />
+          <option value="maintenance.models.DefaultSystem.objects" />
+          <option value="maintenance.models.DefaultSubSystem.objects" />
+          <option value="maintenance.models.DefaultActivity.objects" />
+          <option value="incidents.models.IncidentType.objects" />
+          <option value="incidents.models.TrafficIncident.objects" />
+          <option value="incidents.models.TrafficIncident.DoesNotExist" />
+          <option value="incidents.models.IncidentSeverity.objects" />
+          <option value="incidents.models.IncidentClass.objects" />
+          <option value="incidents.models.RoadCondition.objects" />
+          <option value="incidents.models.SurfaceCondition.objects" />
+          <option value="incidents.models.LightCondition.objects" />
+          <option value="incidents.models.WeatherCondition.objects" />
+          <option value="common.models.DocumentType.objects" />
+          <option value="incidents.models.IncidentContact.objects" />
+          <option value="incidents.models.IncidentContact.DoesNotExist" />
+          <option value="incidents.models.IncidentImage.objects" />
+          <option value="incidents.models.IncidentImage.DoesNotExist" />
+          <option value="geolocation.models.Position.objects" />
+          <option value="products.models.Item.objects" />
+          <option value="products.models.ItemType.objects" />
+          <option value="products.models.Item.DoesNotExist" />
+          <option value="products.models.ItemType.DoesNotExist" />
+          <option value="page.models.About.objects" />
+          <option value="page.models.About.DoesNotExist" />
+          <option value="page.models.Contact.objects" />
+          <option value="page.models.Contact.DoesNotExist" />
+          <option value="page.models.Gallery.objects" />
+          <option value="page.models.GalleryImage.objects" />
+          <option value="page.models.Gallery.DoesNotExist" />
+          <option value="page.models.GalleryImage.DoesNotExist" />
+          <option value="django.contrib.auth.models.User.DoesNotExist" />
+          <option value="tickets.models.FreeZone.objects" />
+          <option value="tickets.models.Datacenter.objects" />
+          <option value="core.models.Settings.objects" />
+          <option value="core.models.Settings.DoesNotExist" />
+          <option value="tickets.models.Ticket.objects" />
+          <option value="core.models.User.objects" />
+          <option value="core.models.User.DoesNotExist" />
+          <option value="core.models.Client.objects" />
+          <option value="core.models.AuthRole.objects" />
+          <option value="core.models.DocumentType.objects" />
+          <option value="tickets.models.EpsArl.objects" />
+          <option value="tickets.models.Ticket.DoesNotExist" />
+          <option value="tickets.models.AttributeValue.DoesNotExist" />
+          <option value="tickets.models.AttributeValue.objects" />
+          <option value="tickets.models.TicketHistory.objects" />
+          <option value="tickets.models.Attributes.objects" />
+          <option value="tickets.models.ToDoTask.objects" />
+          <option value="tickets.models.AccompanimentType.objects" />
+          <option value="tickets.models.ZonePlace.objects" />
+          <option value="tickets.models.ZonePlace.DoesNotExist" />
+          <option value="tickets.models.ToDoTask.DoesNotExist" />
+          <option value="tickets.models.Equipment.objects" />
+          <option value="tickets.models.AttachedFile.DoesNotExist" />
+          <option value="tickets.models.EntryRequest.objects" />
+          <option value="tickets.models.EntryRequest.DoesNotExist" />
+          <option value="tickets.models.Equipment.DoesNotExist" />
+          <option value="tickets.models.TicketAttachments.DoesNotExist" />
+          <option value="tickets.models.TicketAttachments.objects" />
+          <option value="tickets.models.AccompanimentType.DoesNotExist" />
+          <option value="tickets.models.Datacenter.DoesNotExist" />
+          <option value="tickets.models.EpsArl.DoesNotExist" />
+          <option value="tickets.models.FreeZone.DoesNotExist" />
+          <option value="tickets.models.AttachedFile.objects" />
+          <option value="tickets.models.CheckInType.objects" />
+          <option value="shared.models.DocumentType.objects" />
+          <option value="shared.models.ContractType.objects" />
+          <option value="shared.models.Status.objects" />
+          <option value="core.models.ChangeLog.objects" />
+          <option value="infomanagement.models.MapType.objects" />
+          <option value="infomanagement.models.MapZoneType.objects" />
+          <option value="infomanagement.models.Status.objects" />
+          <option value="infomanagement.models.Map.objects" />
+          <option value="infomanagement.models.Map.DoesNotExist" />
+          <option value="infomanagement.models.LandRegistryType.objects" />
+          <option value="infomanagement.models.LandRegistry.objects" />
+          <option value="infomanagement.models.LandRegistry.DoesNotExist" />
+          <option value="infomanagement.models.TerritorialPlanType.objects" />
+          <option value="infomanagement.models.TerritorialPlan.objects" />
+          <option value="infomanagement.models.TerritorialPlan.DoesNotExist" />
+          <option value="core.models.Geolocation.objects" />
+          <option value="infomanagement.models.PropertyZoneType.objects" />
+          <option value="shared.models.AreaType.objects" />
+          <option value="infomanagement.models.PropertyOrderNumber.objects" />
+          <option value="shared.models.CardinalPoint.objects" />
+          <option value="infomanagement.models.Resolution.objects" />
+          <option value="infomanagement.models.Resolution.DoesNotExist" />
+          <option value="infomanagement.models.Property.objects" />
+          <option value="infomanagement.models.Property.DoesNotExist" />
+          <option value="infomanagement.models.PropertyAdjacent.objects" />
+          <option value="infomanagement.models.PropertyAdjacent.DoesNotExist" />
+          <option value="infomanagement.models.PropertyOwner.objects" />
+          <option value="infomanagement.models.PropertyOwner.DoesNotExist" />
+          <option value="infomanagement.models.PropertyListing.objects" />
+          <option value="infomanagement.models.PropertyListing.DoesNotExist" />
+          <option value="core.models.Geolocation.DoesNotExist" />
+          <option value="inspections.models.InspectionPurposeType.objects" />
+          <option value="inspections.models.VisualInspection.DoesNotExist" />
+          <option value="inspections.models.VisualInspection.objects" />
+          <option value="inspections.models.InspectionApplicant.objects" />
+          <option value="inspections.models.InspectionAdjacent.objects" />
+          <option value="subsidies.models.Subsidy.objects" />
+          <option value="subsidies.models.SubsidyApplicant.objects" />
+          <option value="subsidies.models.Subsidy.DoesNotExist" />
+          <option value="subsidies.models.SubsidyType.objects" />
+          <option value="subsidies.models.SubsidyAreaType.objects" />
+          <option value="subsidies.models.AdministrativeActType.objects" />
+          <option value="core.models.SupportDocument.objects" />
+          <option value="core.models.SupportDocument.DoesNotExist" />
+          <option value="processmanagement.models.ProcessApplicant.objects" />
+          <option value="processmanagement.models.ProcessApplicant.DoesNotExist" />
+          <option value="processmanagement.models.Status.objects" />
+          <option value="processmanagement.models.AddressQuery.objects" />
+          <option value="processmanagement.models.AddressQuery.DoesNotExist" />
+          <option value="core.models.SupportingDocument.objects" />
+          <option value="core.models.SupportingDocument.DoesNotExist" />
+          <option value="core.models.Applicant.objects" />
+          <option value="core.models.Applicant.DoesNotExist" />
+          <option value="processmanagement.models.AddressAssignment.objects" />
+          <option value="processmanagement.models.AddressAssignment.DoesNotExist" />
+          <option value="processmanagement.models.AddressCorrection.objects" />
+          <option value="processmanagement.models.AddressCorrection.DoesNotExist" />
+          <option value="processmanagement.models.CadastralIdCorrection.objects" />
+          <option value="processmanagement.models.CadastralIdCorrection.DoesNotExist" />
+          <option value="core.models.Setting.objects" />
+          <option value="core.models.Setting.DoesNotExist" />
+          <option value="processmanagement.models.FacadeDefinition.objects" />
+          <option value="processmanagement.models.FacadeDefinition.DoesNotExist" />
+          <option value="processmanagement.models.DeedClarification.DoesNotExist" />
+          <option value="processmanagement.models.DeedClarification.objects" />
+          <option value="processmanagement.models.PropertyBoundary.objects" />
+          <option value="processmanagement.models.LandUse.DoesNotExist" />
+          <option value="processmanagement.models.LandUse.objects" />
+          <option value="processmanagement.models.Deed.objects" />
+          <option value="processmanagement.models.Deed.DoesNotExist" />
+          <option value="processmanagement.models.ProcessHistory.objects" />
+          <option value="processmanagement.models.ProcessHistory.DoesNotExist" />
+          <option value="core.models.Adjacent.objects" />
+          <option value="core.models.Adjacent.DoesNotExist" />
+          <option value="shared.models.AdministrativeActType.objects" />
+          <option value="licenses.models.LicenseType.objects" />
+          <option value="licenses.models.LicenseSubType.objects" />
+          <option value="licenses.models.License.objects" />
+          <option value="licenses.models.License.DoesNotExist" />
+          <option value="licenses.models.LicenseHistory.objects" />
+          <option value="licenses.models.LicenseHistory.DoesNotExist" />
+          <option value="licenses.models.UrbanizationDevelopmentChecklist.objects" />
+          <option value="licenses.models.UrbanizationSanitationChecklist.objects" />
+          <option value="licenses.models.UrbanizationReurbanizationChecklist.objects" />
+          <option value="licenses.models.ParcellingChecklist.objects" />
+          <option value="licenses.models.SubdivisionChecklist.objects" />
+          <option value="licenses.models.SubdivisionReboundChecklist.objects" />
+          <option value="licenses.models.ConstructionChecklist.objects" />
+          <option value="licenses.models.UrbanizationDevelopmentChecklist.DoesNotExist" />
+          <option value="licenses.models.ConstructionChecklist.DoesNotExist" />
+          <option value="licenses.models.SubdivisionReboundChecklist.DoesNotExist" />
+          <option value="licenses.models.SubdivisionChecklist.DoesNotExist" />
+          <option value="licenses.models.ParcellingChecklist.DoesNotExist" />
+          <option value="licenses.models.UrbanizationReurbanizationChecklist.DoesNotExist" />
+          <option value="licenses.models.UrbanizationSanitationChecklist.DoesNotExist" />
+          <option value="licenses.models.PaymentUnit.objects" />
+          <option value="licenses.models.LicenseModality.objects" />
+          <option value="licenses.models.NotifyNeighbour.objects" />
+          <option value="licenses.models.NotifyNeighbour.DoesNotExist" />
+          <option value="licenses.models.NotifyInterestedParty.objects" />
+          <option value="licenses.models.NotifyInterestedParty.DoesNotExist" />
+          <option value="licenses.models.Appeal.objects" />
+          <option value="licenses.models.Appeal.DoesNotExist" />
+          <option value="billing.models.PaymentUnit.objects" />
+          <option value="billing.models.Settlement.objects" />
+          <option value="billing.models.Settlement.DoesNotExist" />
+          <option value="core.models.HolidayCalendar.objects" />
+          <option value="core.models.HolidayCalendar.DoesNotExist" />
+          <option value="licenses.models.InterventionOccupationChecklist.objects" />
+          <option value="licenses.models.InterventionOccupationChecklist.DoesNotExist" />
+          <option value="licenses.models.BuildingRecognitionChecklist.objects" />
+          <option value="licenses.models.BuildingRecognitionChecklist.DoesNotExist" />
+          <option value="reports.models.Report.objects" />
+          <option value="reports.models.Report.DoesNotExist" />
+          <option value="manuals.models.Manual.objects" />
+          <option value="manuals.models.Manual.DoesNotExist" />
+          <option value="core.models.Notification.objects" />
+          <option value="core.models.Notification.DoesNotExist" />
+          <option value="customerservice.models.TicketType.objects" />
+          <option value="customerservice.models.Ticket.objects" />
+          <option value="customerservice.models.Ticket.DoesNotExist" />
+          <option value="customerservice.models.Status.objects" />
+          <option value="communication.models.Notification.DoesNotExist" />
+          <option value="communication.models.Notification.objects" />
+          <option value="commercial.models.Publication.objects" />
+          <option value="commercial.models.Publication.DoesNotExist" />
+          <option value="commercial.models.CommercialProfile.objects" />
+          <option value="commercial.models.CommercialProfile.DoesNotExist" />
+          <option value="communication.models.Chat.objects" />
+          <option value="communication.models.Chat.DoesNotExist" />
+          <option value="communication.models.Message.objects" />
+          <option value="communication.models.Message.DoesNotExist" />
+          <option value="licenses.models.Status.objects" />
+          <option value="shared.models.AdminContractDocType.objects" />
+          <option value="core.models.AdminMandatePeriod.objects" />
+          <option value="posts.models.Post.objects" />
+          <option value="posts.models.Vote.objects" />
+          <option value="todo.models.Todo.objects" />
+          <option value="rest_framework.authtoken.models.Token.objects" />
+          <option value="rest_framework.authtoken.models.Token.DoesNotExist" />
+          <option value="manuals.models.Requirement.objects" />
+          <option value="manuals.models.Requirement.DoesNotExist" />
+          <option value="shared.models.ChangeLogType.objects" />
+          <option value="commercial.models.PublicationType.objects" />
+          <option value="commercial.models.MediaType.objects" />
+          <option value="customerservice.models.TicketCategory.objects" />
+          <option value="processmanagement.models.ClarificationType.objects" />
+          <option value="processmanagement.models.RegistryFile.objects" />
+          <option value="processmanagement.models.RegistryFile.DoesNotExist" />
+          <option value="subsidies.models.SubsidyRequest.objects" />
+          <option value="subsidies.models.SubsidyRequest.DoesNotExist" />
+          <option value="subsidies.models.SubsidyRequestType.objects" />
+          <option value="subsidies.models.Status.objects" />
+          <option value="core.models.ProcessHistory.objects" />
+          <option value="core.models.ProcessHistory.DoesNotExist" />
+          <option value="core.models.ModelHistory.objects" />
+          <option value="core.models.ModelHistory.DoesNotExist" />
+          <option value="core.models.ModelStory.objects" />
+          <option value="core.models.ModelStory.DoesNotExist" />
+          <option value="commercial.models.Status.objects" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

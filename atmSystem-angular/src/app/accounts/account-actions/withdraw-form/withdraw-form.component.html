@@ -1,0 +1,84 @@
+<div class="text-center">
+  <h4>Withdraw</h4>
+</div>
+<div class="row mt-2">
+  <div class="col-md-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">ATM:</h5>
+        <p class="card-text">Location: {{ atm.location }}</p>
+        <p class="card-text">Balance: ${{ atm.balance }}</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Account:</h5>
+        <p class="card-text">Name: {{ account.name }}</p>
+        <p class="card-text">Balance: ${{ account.balance }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row mt-4">
+  <div class="col-md-6 mx-auto">
+    <div class="card">
+      <div class="card-body">
+        <div class="alert alert-danger" *ngIf="atmOutput.errorMessage">
+          {{ atmOutput.errorMessage }}
+        </div>
+        <form (ngSubmit)="onSubmit(f)" #f="ngForm">
+          <div class="form-row">
+            <div class="col-12 form-group">
+              <label>Amount to Withdraw:</label>
+              <input
+                type="number"
+                class="form-control"
+                name="amount"
+                required
+                ngModel
+              />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="col-12 form-group">
+              <button class="btn btn-primary" type="submit">Withdraw</button>
+              <button class="btn btn-secondary mx-2" type="reset">Clear</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row mt-4" *ngIf="showOutput">
+  <div class="col-md-6 mx-auto">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Your Cash</h5>
+        <p *ngIf="atmOutput.qtyNote100" class="card-text">
+          100 Notes: {{ atmOutput.qtyNote100 }}
+        </p>
+        <p *ngIf="atmOutput.qtyNote50" class="card-text">
+          50 Notes: {{ atmOutput.qtyNote50 }}
+        </p>
+        <p *ngIf="atmOutput.qtyNote20" class="card-text">
+          20 Notes: {{ atmOutput.qtyNote20 }}
+        </p>
+        <p *ngIf="atmOutput.qtyNote10" class="card-text">
+          10 Notes: {{ atmOutput.qtyNote10 }}
+        </p>
+        <p *ngIf="atmOutput.qtyNote5" class="card-text">
+          5 Notes: {{ atmOutput.qtyNote5 }}
+        </p>
+        <p *ngIf="atmOutput.qtyNote2" class="card-text">
+          2 Notes: {{ atmOutput.qtyNote2 }}
+        </p>
+        <p *ngIf="atmOutput.qtyNote1" class="card-text">
+          1 Notes: {{ atmOutput.qtyNote1 }}
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

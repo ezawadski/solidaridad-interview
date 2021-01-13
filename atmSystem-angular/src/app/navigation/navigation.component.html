@@ -1,0 +1,34 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+  <a class="navbar-brand" routerLink="/">Bank of San Nicasio</a>
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbar"
+    aria-controls="navbar"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbar">
+    <ul class="navbar-nav ml-auto">
+      <li routerLinkActive="active" class="nav-item dropdown">
+        <a
+          class="nav-link dropdown-toggle"
+          href="#"
+          id="dropdown04"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+          >Configurations</a
+        >
+        <div class="dropdown-menu" aria-labelledby="dropdown04">
+          <a class="dropdown-item" routerLink="/accounts_list">Accounts</a>
+          <a class="dropdown-item" routerLink="/atms_list">ATMs</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
